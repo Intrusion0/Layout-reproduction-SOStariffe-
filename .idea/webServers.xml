@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="19840464-556a-416e-a7b5-ff5b23a04469" name="comparatore.qibiz.cloud" url="http://comparatore.qibiz.cloud">
+        <fileTransfer host="comparatore.qibiz.cloud" port="22" rootFolder="/comparatore.qibiz.cloud" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
