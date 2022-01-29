@@ -1,8 +1,91 @@
 // Fonts
-@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css?family=Muli');
 
 // Variables
 @import 'variables';
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
+
+// General rules
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Muli,sans-serif;
+}
+
+// Header
+header {
+    border-bottom: 1px solid #e0e0e0;
+
+    div.row {
+
+        div.col-2 {
+
+            a {
+
+                img {
+                    max-width: 100%;
+                    height: auto;
+                    filter: drop-shadow(2px 4px 6px #000);
+                }
+            }
+        }
+
+        div.ms-container-nav {
+            display: flex;
+            align-items: center;
+            justify-content: end;
+
+            ul {
+
+                li {
+
+                    a.ms-nav-link {
+                        color: #304155;
+                        letter-spacing: 0.4px;
+
+                        span {
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Home page
+
+// Sezione Service
+section#services {
+    width: 100%;
+    background: linear-gradient(127deg,rgba(246,247,250,1) 0%,rgba(242,244,249,1) 35%,rgba(247,249,253,1) 35%,rgba(241,242,250,1) 85%,rgba(245,246,251,1) 85%,rgba(241,242,250,1) 100%);
+    // debug
+    height: 650px;
+
+    div.container {
+        
+        div.row {
+
+            div.col-7 {
+                // debug
+                height: 650px;
+            }
+
+            div.col-5 {
+                // debug
+                height: 650px;
+
+                img {
+                    max-width: 100%;
+                    height: auto;
+                }
+            }
+        }
+    }
+}

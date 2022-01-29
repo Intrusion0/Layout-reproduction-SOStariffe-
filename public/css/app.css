@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Nunito);@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Muli);@charset "UTF-8";
 
 /*!
  * Bootstrap v4.6.1 (https://getbootstrap.com/)
@@ -10960,5 +10960,59 @@ a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6;
   }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Muli, sans-serif;
+}
+
+header {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+header div.row div.col-2 a img {
+  max-width: 100%;
+  height: auto;
+  filter: drop-shadow(2px 4px 6px #000);
+}
+
+header div.row div.ms-container-nav {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+header div.row div.ms-container-nav ul li a.ms-nav-link {
+  color: #304155;
+  letter-spacing: 0.4px;
+}
+
+header div.row div.ms-container-nav ul li a.ms-nav-link span {
+  font-size: 14px;
+}
+
+section#services {
+  width: 100%;
+  background: linear-gradient(127deg, #f6f7fa 0%, #f2f4f9 35%, #f7f9fd 35%, #f1f2fa 85%, #f5f6fb 85%, #f1f2fa 100%);
+  height: 650px;
+}
+
+section#services div.container div.row div.col-7 {
+  height: 650px;
+}
+
+section#services div.container div.row div.col-5 {
+  height: 650px;
+}
+
+section#services div.container div.row div.col-5 img {
+  max-width: 100%;
+  height: auto;
 }
 
